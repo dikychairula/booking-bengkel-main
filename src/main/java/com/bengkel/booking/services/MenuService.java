@@ -22,7 +22,10 @@ public class MenuService {
 	}
 	
 	public static void login() {
-		
+		System.out.println("Masukan id:");
+		String id = input.nextLine();
+		System.out.println("Masukan pasword:");
+		String pw = input.nextLine();
 	}
 	
 	public static void mainMenu() {
